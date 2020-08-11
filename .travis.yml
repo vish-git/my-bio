@@ -13,6 +13,5 @@ deploy:
   skip_cleanup: "true"
 addons:
   chrome: stable
-before_install:
-  -  # start your web application and listen on `localhost`
-  - google-chrome-stable --headless --disable-gpu --no-sandbox --remote-debugging-port=9222 http://localhost &
+script:
+  - echo "skipping tests"
