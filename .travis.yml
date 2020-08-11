@@ -3,12 +3,13 @@ node_js:
   - node
 branches:
   only:
-  - master
+    - master
 before_script:
   - npm install -g @angular/cli
 script:
   - npm install
   - npm run build
+  - echo "skipping tests"
 deploy:
   provider: s3
   access_key_id: AKIAJ4U2VYBAPA674UQQ
@@ -22,5 +23,3 @@ deploy:
   skip_cleanup: "true"
 addons:
   chrome: stable
-script:
-  - echo "skipping tests"
