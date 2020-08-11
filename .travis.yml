@@ -12,7 +12,7 @@ deploy:
     repo: vish-git/my-bio
   skip_cleanup: "true"
   addons:
-    chrome: stable --no-sandbox
+    chrome: stable
   before_install:
     # start your web application and listen on `localhost`
-    google-chrome-stable --headless --disable-gpu --remote-debugging-port=9222 http://localhost &
+    google-chrome-stable --headless --no-sandbox --disable-gpu --remote-debugging-port=9222 http://localhost &
