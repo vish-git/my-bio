@@ -7,6 +7,7 @@ deploy:
   secret_access_key:
     secure: X3BWq9ObmyWfecQqJcTCkEQWwaxt8yUmulwY075iJIxUHk7b8JGbXcQewYztznKMuyvVXuz8IyzeQ5dvcU5GjKz2rA6Vhtud7Y3APKbAdRoArfWqioW7ESTBHMgGJsM9sEV9xYEpo0vl68IHseM0ZKHKtWic30mGs++GFHcV8Ikunsw1nVp9JyrR9AVvE2BxDiy9mMW+iGjSm2qeRscx0HWIEyC+9GpetyDOPFafNWICrVtpr+TZ1YllteaV89CqCrDrdYagXhbgJFFFrs4AKrMqpkw2ZUI/JrdskCGD+V1BFYZ8JlhKmNu8/KiGieFF6YMdHJUAJLS17cHSQFPpX+41VNMtEbOn0xMu7dyq+eWW1sE75sIPScApbaz5t5IJq3oOoVL9Oz5i6f0dpbr/8o+PrD/Is0NDSoD8HGpNMUhFdEFzSLMj+BtTfrmBQ2M0dqpETcwVOpuNl5fmHBMBNFN4fi6QQm7Np20mabWXKSZiAGlQz+UDs+g1M6GAfwRFBVkVuEb3lzUwqFFZRRqYGo0JUV1OSibMGlKaPX/8wm/ObELz3q+JKKFTrZ8DMvJpflekP77R7XYQS8hB/lUOUVqh+8NW4QRmP/FJJeyO7FF0RieW7mZETe2PVZwlBKoc0hcfgPSo58uI+Skh1BHXcn2H8TqqdIixZascOprue74=
   bucket: vishwanathph.in
+  region: ap-south-1
   acl: public_read
   on:
     repo: vish-git/my-bio
@@ -15,4 +16,3 @@ addons:
   chrome: stable
 script:
   - echo "skipping tests"
-region: ap-south-1
