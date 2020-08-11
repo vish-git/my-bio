@@ -18,6 +18,7 @@ deploy:
   bucket: vishwanathph.in
   region: ap-south-1
   local_dir: dist
+  upload-dir: .
   acl: public_read
   on:
     repo: vish-git/my-bio
