@@ -1,3 +1,6 @@
+language: node_js
+node_js:
+  - node
 deploy:
   provider: s3
   access_key_id: AKIAJ4U2VYBAPA674UQQ
@@ -7,4 +10,4 @@ deploy:
   acl: public_read
   on:
     repo: vish-git/my-bio
-  skip_cleanup: 'true'
+  skip_cleanup: "true"
