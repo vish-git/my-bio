@@ -14,6 +14,8 @@ import { CareerComponent } from './career/career.component';
 import { CardModule } from 'primeng/card';
 import { SkillChartComponent } from './skill-chart/skill-chart.component';
 import { SkillTableComponent } from './skill-table/skill-table.component';
+import { TreeTableModule } from 'primeng/treetable';
+import { HttpClientModule } from '@angular/common/http';
 
 const routes: Routes = [{ path: 'career', component: CareerComponent }];
 
@@ -35,6 +37,8 @@ const routes: Routes = [{ path: 'career', component: CareerComponent }];
     TabMenuModule,
     AppRoutingModule,
     CardModule,
+    TreeTableModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
