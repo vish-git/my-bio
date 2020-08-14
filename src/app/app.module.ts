@@ -17,7 +17,10 @@ import { SkillTableComponent } from './skill-table/skill-table.component';
 import { TreeTableModule } from 'primeng/treetable';
 import { HttpClientModule } from '@angular/common/http';
 
-const routes: Routes = [{ path: 'career', component: CareerComponent }];
+const routes: Routes = [
+  { path: '', redirectTo: '/career', pathMatch: 'full' },
+  { path: 'career', component: CareerComponent },
+];
 
 @NgModule({
   declarations: [
