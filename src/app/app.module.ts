@@ -11,6 +11,9 @@ import { FooterComponent } from './footer/footer.component';
 import { TabViewModule } from 'primeng/tabview';
 import { TabMenuModule } from 'primeng/tabmenu';
 import { CareerComponent } from './career/career.component';
+import { CardModule } from 'primeng/card';
+import { SkillChartComponent } from './skill-chart/skill-chart.component';
+import { SkillTableComponent } from './skill-table/skill-table.component';
 
 const routes: Routes = [{ path: 'career', component: CareerComponent }];
 
@@ -20,6 +23,8 @@ const routes: Routes = [{ path: 'career', component: CareerComponent }];
     HeaderComponent,
     FooterComponent,
     CareerComponent,
+    SkillChartComponent,
+    SkillTableComponent,
   ],
   imports: [
     RouterModule.forRoot(routes),
@@ -29,6 +34,7 @@ const routes: Routes = [{ path: 'career', component: CareerComponent }];
     TabViewModule,
     TabMenuModule,
     AppRoutingModule,
+    CardModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
