@@ -1,9 +1,8 @@
 <p-treeTable [value]="files">
   <ng-template pTemplate="header">
     <tr>
-      <th>Name</th>
-      <th>Size</th>
-      <th>Type</th>
+      <th>Technologies</th>
+      <th>Experience</th>
     </tr>
   </ng-template>
   <ng-template pTemplate="body" let-rowNode let-rowData="rowData">
@@ -12,8 +11,7 @@
         <p-treeTableToggler [rowNode]="rowNode"></p-treeTableToggler>
         {{ rowData.name }}
       </td>
-      <td>{{ rowData.size }}</td>
-      <td>{{ rowData.type }}</td>
+      <td>{{ rowData.experience }}</td>
     </tr>
   </ng-template>
 </p-treeTable>

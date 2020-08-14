@@ -13,53 +13,173 @@ export class SkillNodeService {
       data: [
         {
           data: {
-            name: 'Applications',
-            size: '200mb',
-            type: 'Folder',
+            name: 'Expertise',
+            experience: '',
+          },
+          children: [
+            {
+              data: {
+                name: 'Java',
+                experience: '5yrs.',
+              },
+            },
+            {
+              data: {
+                name: 'Node.js',
+                experience: '4 yrs.',
+              },
+            },
+            {
+              data: {
+                name: 'Angular',
+                experience: '3.5 yrs.',
+                type: 'Folder',
+              },
+            },
+            {
+              data: {
+                name: 'MongoDB',
+                experience: '2 yrs.',
+              },
+            },
+          ],
+        },
+        {
+          data: {
+            name: 'Node.js',
+            experience: '4 yrs',
+          },
+          children: [
+            {
+              data: {
+                name: 'Hapi.js',
+                experience: '2 yrs.',
+              },
+            },
+            {
+              data: {
+                name: 'Seneca',
+                experience: '2 yrs.',
+              },
+            },
+            {
+              data: {
+                name: 'Unit Testing and coverage (Mocha , Chai , Istanbul )',
+                experience: '2+ yrs.',
+              },
+            },
+            {
+              data: {
+                name: 'Mongoose',
+                experience: '2 yrs.',
+              },
+            },
+          ],
+        },
+        {
+          data: {
+            name: 'FrontEnd',
+            experience: '4 yrs',
           },
           children: [
             {
               data: {
                 name: 'Angular',
-                size: '25mb',
-                type: 'Folder',
-              },
-              children: [
-                {
-                  data: {
-                    name: 'angular.app',
-                    size: '10mb',
-                    type: 'Application',
-                  },
-                },
-                {
-                  data: {
-                    name: 'cli.app',
-                    size: '10mb',
-                    type: 'Application',
-                  },
-                },
-                {
-                  data: {
-                    name: 'mobile.app',
-                    size: '5mb',
-                    type: 'Application',
-                  },
-                },
-              ],
-            },
-            {
-              data: {
-                name: 'editor.app',
-                size: '25mb',
-                type: 'Application',
+                experience: '4 yrs.',
               },
             },
             {
               data: {
-                name: 'settings.app',
-                size: '50mb',
-                type: 'Application',
+                name: 'Typescript',
+                experience: '4 yrs.',
+              },
+            },
+            {
+              data: {
+                name: 'PrimeNg , Angular Material',
+                experience: '2+ yrs',
+              },
+            },
+            {
+              data: {
+                name: 'SASS',
+                experience: '4 yrs.',
+              },
+            },
+            {
+              data: {
+                name: 'Unit testing (Jasmine , Protractor)',
+                experience: '1+ yrs.',
+              },
+            },
+            {
+              data: {
+                name: 'React.js',
+                experience: '0.2 yrs.',
+              },
+            },
+          ],
+        },
+        {
+          data: {
+            name: 'Database',
+            experience: '....',
+          },
+          children: [
+            {
+              data: {
+                name: 'MongoDB',
+                experience: '2+ yrs',
+              },
+            },
+            {
+              data: {
+                name: 'Redis',
+                experience: '2+ yrs',
+              },
+            },
+            {
+              data: {
+                name: 'Postgresql',
+                experience: '1+ yrs',
+              },
+            },
+          ],
+        },
+        {
+          data: {
+            name: 'Security',
+            experience: '3 yrs.',
+          },
+          children: [
+            {
+              data: {
+                name: 'Passport.js ',
+                experience: '....',
+              },
+            },
+            {
+              data: {
+                name: 'SAML',
+                experience: '....',
+              },
+            },
+            {
+              data: {
+                name: 'OAuth',
+                experience: '....',
+              },
+            },
+            {
+              data: {
+                name: 'JWT ',
+                experience: '....',
+              },
+            },
+            {
+              data: {
+                name: 'Google Captcha',
+                experience: '...',
               },
             },
           ],
@@ -67,254 +187,106 @@ export class SkillNodeService {
         {
           data: {
             name: 'Cloud',
-            size: '20mb',
-            type: 'Folder',
+            experience: '1+ yrs.',
           },
           children: [
             {
               data: {
-                name: 'backup-1.zip',
-                size: '10mb',
-                type: 'Zip',
-              },
-            },
-            {
-              data: {
-                name: 'backup-2.zip',
-                size: '10mb',
-                type: 'Zip',
+                name: 'Microsoft Azure ',
+                experience: '1+ yrs',
               },
             },
           ],
         },
         {
           data: {
-            name: 'Desktop',
-            size: '150kb',
-            type: 'Folder',
+            name: 'Devops and monitoring',
+            experience: '1+ yrs.',
           },
           children: [
             {
               data: {
-                name: 'note-meeting.txt',
-                size: '50kb',
-                type: 'Text',
+                name: 'Docker',
+                experience: '3+ yrs',
               },
             },
             {
               data: {
-                name: 'note-todo.txt',
-                size: '100kb',
-                type: 'Text',
+                name: 'ELK and Filebeat ',
+                experience: '1+ yrs',
               },
             },
           ],
         },
         {
           data: {
-            name: 'Documents',
-            size: '75kb',
-            type: 'Folder',
+            name: 'Tools',
+            experience: '...',
           },
           children: [
             {
               data: {
-                name: 'Work',
-                size: '55kb',
-                type: 'Folder',
+                name: 'Open API(Swagger) ',
+                experience: '...',
               },
-              children: [
-                {
-                  data: {
-                    name: 'Expenses.doc',
-                    size: '30kb',
-                    type: 'Document',
-                  },
-                },
-                {
-                  data: {
-                    name: 'Resume.doc',
-                    size: '25kb',
-                    type: 'Resume',
-                  },
-                },
-              ],
             },
             {
               data: {
-                name: 'Home',
-                size: '20kb',
-                type: 'Folder',
+                name: 'WebPack',
+                experience: '....',
               },
-              children: [
-                {
-                  data: {
-                    name: 'Invoices',
-                    size: '20kb',
-                    type: 'Text',
-                  },
-                },
-              ],
+            },
+            {
+              data: {
+                name: 'ESlint',
+                experience: '...',
+              },
+            },
+            {
+              data: {
+                name: 'Grunt / Gulp ',
+                experience: '...',
+              },
             },
           ],
         },
+
         {
           data: {
-            name: 'Downloads',
-            size: '25mb',
-            type: 'Folder',
+            name: 'SCM',
+            experience: '...',
           },
           children: [
             {
               data: {
-                name: 'Spanish',
-                size: '10mb',
-                type: 'Folder',
-              },
-              children: [
-                {
-                  data: {
-                    name: 'tutorial-a1.txt',
-                    size: '5mb',
-                    type: 'Text',
-                  },
-                },
-                {
-                  data: {
-                    name: 'tutorial-a2.txt',
-                    size: '5mb',
-                    type: 'Text',
-                  },
-                },
-              ],
-            },
-            {
-              data: {
-                name: 'Travel',
-                size: '15mb',
-                type: 'Text',
-              },
-              children: [
-                {
-                  data: {
-                    name: 'Hotel.pdf',
-                    size: '10mb',
-                    type: 'PDF',
-                  },
-                },
-                {
-                  data: {
-                    name: 'Flight.pdf',
-                    size: '5mb',
-                    type: 'PDF',
-                  },
-                },
-              ],
-            },
-          ],
-        },
-        {
-          data: {
-            name: 'Main',
-            size: '50mb',
-            type: 'Folder',
-          },
-          children: [
-            {
-              data: {
-                name: 'bin',
-                size: '50kb',
-                type: 'Link',
-              },
-            },
-            {
-              data: {
-                name: 'etc',
-                size: '100kb',
-                type: 'Link',
-              },
-            },
-            {
-              data: {
-                name: 'var',
-                size: '100kb',
-                type: 'Link',
+                name: 'Github , SVN ',
+                experience: '1+ yrs',
               },
             },
           ],
         },
         {
           data: {
-            name: 'Other',
-            size: '5mb',
-            type: 'Folder',
+            name: 'IOT',
+            experience: 'POC',
           },
           children: [
             {
               data: {
-                name: 'todo.txt',
-                size: '3mb',
-                type: 'Text',
+                name: 'Raspberry Pi',
+                experience: 'POC',
               },
             },
             {
               data: {
-                name: 'logo.png',
-                size: '2mb',
-                type: 'Picture',
-              },
-            },
-          ],
-        },
-        {
-          data: {
-            name: 'Pictures',
-            size: '150kb',
-            type: 'Folder',
-          },
-          children: [
-            {
-              data: {
-                name: 'barcelona.jpg',
-                size: '90kb',
-                type: 'Picture',
+                name: 'MQTT',
+                experience: 'POC',
               },
             },
             {
               data: {
-                name: 'primeng.png',
-                size: '30kb',
-                type: 'Picture',
-              },
-            },
-            {
-              data: {
-                name: 'prime.jpg',
-                size: '30kb',
-                type: 'Picture',
-              },
-            },
-          ],
-        },
-        {
-          data: {
-            name: 'Videos',
-            size: '1500mb',
-            type: 'Folder',
-          },
-          children: [
-            {
-              data: {
-                name: 'primefaces.mkv',
-                size: '1000mb',
-                type: 'Video',
-              },
-            },
-            {
-              data: {
-                name: 'intro.avi',
-                size: '500mb',
-                type: 'Video',
+                name: 'Node-RED',
+                experience: 'POC',
               },
             },
           ],
