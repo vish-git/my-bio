@@ -16,11 +16,10 @@ import { SkillChartComponent } from './skill-chart/skill-chart.component';
 import { SkillTableComponent } from './skill-table/skill-table.component';
 import { TreeTableModule } from 'primeng/treetable';
 import { HttpClientModule } from '@angular/common/http';
-
-const routes: Routes = [
-  { path: '', redirectTo: '/career', pathMatch: 'full' },
-  { path: 'career', component: CareerComponent },
-];
+import { TechDairyComponent } from './tech-dairy/tech-dairy.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { PersonalComponent } from './personal/personal.component';
+import { TravelLogComponent } from './travel-log/travel-log.component';
 
 @NgModule({
   declarations: [
@@ -30,9 +29,12 @@ const routes: Routes = [
     CareerComponent,
     SkillChartComponent,
     SkillTableComponent,
+    TechDairyComponent,
+    ProjectsComponent,
+    PersonalComponent,
+    TravelLogComponent,
   ],
   imports: [
-    RouterModule.forRoot(routes),
     BrowserModule,
     BrowserAnimationsModule,
     ChartModule,

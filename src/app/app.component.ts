@@ -17,10 +17,26 @@ export class AppComponent implements OnInit {
   constructor(private primengConfig: PrimeNGConfig) {
     this.items = [
       { label: 'Career', icon: 'pi pi-fw pi-home', routerLink: ['career'] },
-      { label: 'Projects', icon: 'pi pi-fw pi-calendar' },
-      { label: 'MyTech Dairy', icon: 'pi pi-fw pi-pencil' },
-      { label: 'Personal', icon: 'pi pi-fw pi-file' },
-      { label: 'My Travel Log', icon: 'pi pi-fw pi-cog' },
+      {
+        label: 'Projects',
+        icon: 'pi pi-fw pi-calendar',
+        routerLink: ['projects'],
+      },
+      {
+        label: 'MyTech Dairy',
+        icon: 'pi pi-fw pi-pencil',
+        routerLink: ['tech-dairy'],
+      },
+      {
+        label: 'Personal',
+        icon: 'pi pi-fw pi-file',
+        routerLink: ['personal'],
+      },
+      {
+        label: 'My Travel Log',
+        icon: 'pi pi-fw pi-cog',
+        routerLink: ['travel-log'],
+      },
     ];
 
     this.activeItem = this.items[0];
