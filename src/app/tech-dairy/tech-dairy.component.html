@@ -1,65 +1,166 @@
 <h3>HTML</h3>
 
+<ul>
+  <li *ngFor="let htmlReferenceLink of htmlReferenceLinks">
+    <a href="{{ htmlReferenceLink.url }}">{{ htmlReferenceLink.title }}</a>
+  </li>
+</ul>
+
 <h3>CSS</h3>
+
+<ul>
+  <li *ngFor="let cssReferenceLink of cssReferenceLinks">
+    <a href="{{ cssReferenceLink.url }}">{{ cssReferenceLink.title }}</a>
+  </li>
+</ul>
 
 <h3>Javascript</h3>
 
+<ul>
+  <li *ngFor="let javascriptReferenceLink of javascriptReferenceLinks">
+    <a href="{{ javascriptReferenceLink.url }}">{{
+      javascriptReferenceLink.title
+    }}</a>
+  </li>
+</ul>
+
 <h3>Angular</h3>
+
+<ul>
+  <li *ngFor="let angularReferenceLink of angularReferenceLinks">
+    <a href="{{ angularReferenceLink.url }}">{{
+      angularReferenceLink.title
+    }}</a>
+  </li>
+</ul>
 
 <h3>React</h3>
 
+<ul>
+  <li *ngFor="let reactReferenceLink of reactReferenceLinks">
+    <a href="{{ reactReferenceLink.url }}">{{ reactReferenceLink.title }}</a>
+  </li>
+</ul>
+
 <h3>GraphQL</h3>
 
+<ul>
+  <li *ngFor="let graphqlReferenceLink of graphqlReferenceLinks">
+    <a href="{{ graphqlReferenceLink.url }}">{{
+      graphqlReferenceLink.title
+    }}</a>
+  </li>
+</ul>
 <h3>Node.js</h3>
+
+<ul>
+  <li *ngFor="let nodejsReferenceLink of nodejsReferenceLinks">
+    <a href="{{ nodejsReferenceLink.url }}">{{ nodejsReferenceLink.title }}</a>
+  </li>
+</ul>
+
+<h3>Nest.js</h3>
+
+<ul>
+  <li *ngFor="let nestjsReferenceLink of nestjsReferenceLinks">
+    <a href="{{ nestjsReferenceLink.url }}">{{ nestjsReferenceLink.title }}</a>
+  </li>
+</ul>
+
+<h3>Typescript</h3>
+
+<ul>
+  <li *ngFor="let typescriptReferenceLink of typescriptReferenceLinks">
+    <a href="{{ typescriptReferenceLink.url }}">{{
+      typescriptReferenceLink.title
+    }}</a>
+  </li>
+</ul>
 
 <h3>Webpage design related</h3>
 
+<ul>
+  <li *ngFor="let webpagedesignReferenceLink of webpagedesignReferenceLinks">
+    <a href="{{ webpagedesignReferenceLink.url }}">{{
+      webpagedesignReferenceLink.title
+    }}</a>
+  </li>
+</ul>
+
 <h3>Mobile Apps / Hybrid Apps related</h3>
+
+<ul>
+  <li *ngFor="let mobileAppsReferenceLink of mobileAppsReferenceLinks">
+    <a href="{{ mobileAppsReferenceLink.url }}">{{
+      mobileAppsReferenceLink.title
+    }}</a>
+  </li>
+</ul>
+
 <h3>Amazon web services</h3>
+
+<ul>
+  <li *ngFor="let awsReferenceLink of awsReferenceLinks">
+    <a href="{{ awsReferenceLink.url }}">{{ awsReferenceLink.title }}</a>
+  </li>
+</ul>
 
 <h3>chat App related</h3>
 
-<h3>Data structures and Algorithms</h3>
+<ul>
+  <li *ngFor="let chatAppReferenceLink of chatAppReferenceLinks">
+    <a href="{{ chatAppReferenceLink.url }}">{{
+      chatAppReferenceLink.title
+    }}</a>
+  </li>
+</ul>
 
 <h3>DevOps</h3>
 
-<h3>Security</h3>
+<ul>
+  <li *ngFor="let devopsandCICDReferenceLink of devopsandCICDReferenceLinks">
+    <a href="{{ devopsandCICDReferenceLink.url }}">{{
+      devopsandCICDReferenceLink.title
+    }}</a>
+  </li>
+</ul>
 
+<h3>Web App Security</h3>
+
+<ul>
+  <li *ngFor="let webAppSecurityReferenceLink of webAppSecurityReferenceLinks">
+    <a href="{{ webAppSecurityReferenceLink.url }}">{{
+      webAppSecurityReferenceLink.title
+    }}</a>
+  </li>
+</ul>
 <h3>Interview Questions</h3>
+
+<ul>
+  <li
+    *ngFor="
+      let interviewQuestionReferenceLink of interviewQuestionReferenceLinks
+    "
+  >
+    <a href="{{ interviewQuestionReferenceLink.url }}">{{
+      interviewQuestionReferenceLink.title
+    }}</a>
+  </li>
+</ul>
 
 <h3>Animation and video</h3>
 
-<h3>UnOrganized links</h3>
+<ul>
+  <li *ngFor="let animationReferenceLink of animationReferenceLinks">
+    <a href="{{ animationReferenceLink.url }}">{{
+      animationReferenceLink.title
+    }}</a>
+  </li>
+</ul>
 
+<h3>UnOrganized links</h3>
 <ul>
   <li *ngFor="let unOrganizedLink of unOrganizedLinks">
     <a href="{{ unOrganizedLink.url }}">{{ unOrganizedLink.title }}</a>
   </li>
 </ul>
-
-<h3>Javascript</h3>
-Useful Links:
-<ul>
-  <li></li>
-</ul>
-<h3>Angular</h3>
-<h2>REACT</h2>
-<h3>React main Links</h3>
-<ul>
-  <li *ngFor="let reactLink of reactMainLinks">
-    <a href="{{ reactLink.url }}">{{ reactLink.title }}</a>
-  </li>
-</ul>
-
-<h3>React Concepts</h3>
-<ul>
-  <li *ngFor="let reactLink of reactConceptsLinks">
-    <a href="{{ reactLink.url }}">{{ reactLink.title }}</a>
-  </li>
-</ul>
-<h3>Mongodb</h3>
-
-<h3>Node.js</h3>
-<h3>My daily visits to sites</h3>
-<h3>Useful Links</h3>
-<h3>My Book marked sites for learning</h3>
