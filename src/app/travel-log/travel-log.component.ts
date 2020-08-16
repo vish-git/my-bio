@@ -8,7 +8,11 @@ import * as dataLinks from '../links';
 })
 export class TravelLogComponent implements OnInit {
   display: boolean = false;
-  imageObject: any = {};
+  karnatakaImageObject: any = {};
+  andhraImageObject: any = {};
+  keralaImageObject: any = {};
+  tamilnaduImageObject: any = {};
+
   imageData: any;
   imageUrl: any;
   imageDesc: any;
@@ -17,7 +21,10 @@ export class TravelLogComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {
-    this.imageObject = dataLinks.karnatakaTravelImageLinks;
+    this.karnatakaImageObject = dataLinks.karnatakaTravelImageLinks;
+    this.andhraImageObject = dataLinks.andhraTravelImageLinks;
+    this.keralaImageObject = dataLinks.keralaTravelImageLinks;
+    this.tamilnaduImageObject = dataLinks.tamilnaduTravelImageLinks;
   }
 
   showDialog(imageObject: any) {
