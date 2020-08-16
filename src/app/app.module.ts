@@ -20,6 +20,7 @@ import { TechDairyComponent } from './tech-dairy/tech-dairy.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { PersonalComponent } from './personal/personal.component';
 import { TravelLogComponent } from './travel-log/travel-log.component';
+import { IndustryProjectsComponent } from './industry-projects/industry-projects.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { TravelLogComponent } from './travel-log/travel-log.component';
     ProjectsComponent,
     PersonalComponent,
     TravelLogComponent,
+    IndustryProjectsComponent,
   ],
   imports: [
     BrowserModule,
