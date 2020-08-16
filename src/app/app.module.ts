@@ -23,6 +23,7 @@ import { TravelLogComponent } from './travel-log/travel-log.component';
 import { IndustryProjectsComponent } from './industry-projects/industry-projects.component';
 import { FreelanceProjectsComponent } from './freelance-projects/freelance-projects.component';
 import { PocComponent } from './poc/poc.component';
+import { DialogModule } from 'primeng/dialog';
 
 @NgModule({
   declarations: [
@@ -50,6 +51,7 @@ import { PocComponent } from './poc/poc.component';
     CardModule,
     TreeTableModule,
     HttpClientModule,
+    DialogModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

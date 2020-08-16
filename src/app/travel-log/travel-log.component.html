@@ -1,1 +1,78 @@
-<img src="assets/page-under-construction.png" />
+<!-- <img src="assets/page-under-construction.png" /> -->
+<div class="p-grid">
+  <p-card styleClass="card-container" header="Karnataka" class="p-col-12">
+    <div class="p-grid">
+      <div class="p-col-2">
+        <img
+          src="assets/page-under-construction.png"
+          (click)="showDialog('assets/page-under-construction.png')"
+          width="100%"
+        />
+        <span>page under construction</span>
+      </div>
+      <div class="p-col-2">
+        <img src="assets/page-under-construction.png" width="100%" />
+        <span>page under construction</span>
+      </div>
+      <div class="p-col-2">
+        <img
+          src="assets/page-under-construction.png"
+          (click)="showDialog('jbj')"
+          width="100%"
+        />
+        <span>page under construction</span>
+      </div>
+      <div class="p-col-2">
+        <img src="assets/page-under-construction.png" width="100%" />
+        <span>page under construction</span>
+      </div>
+      <div class="p-col-2">
+        <img src="assets/page-under-construction.png" width="100%" />
+        <span>page under construction</span>
+      </div>
+      <div class="p-col-2">
+        <img src="assets/page-under-construction.png" width="100%" />
+        <span>page under construction</span>
+      </div>
+      <div class="p-col-2">
+        <img src="assets/page-under-construction.png" width="100%" />
+        <span>page under construction</span>
+      </div>
+      <div class="p-col-2">
+        <img src="assets/page-under-construction.png" width="100%" />
+        <span>page under construction</span>
+      </div>
+      <div class="p-col-2">
+        <img src="assets/page-under-construction.png" width="100%" />
+        <span>page under construction</span>
+      </div>
+      <div class="p-col-2">
+        <img
+          src="assets/page-under-construction.png"
+          (click)="showDialog('faasa')"
+          width="100%"
+        />
+        <span>page under construction</span>
+      </div>
+      <div class="p-col-2">
+        <img src="assets/page-under-construction.png" width="100%" />
+        <span>page under construction</span>
+      </div>
+      <div class="p-col-2">
+        <img src="assets/page-under-construction.png" width="100%" />
+        <span>page under construction</span>
+      </div>
+    </div>
+  </p-card>
+  <p-card styleClass="card-container" header="Kerala" class="p-col-12"> </p-card
+  ><p-card styleClass="card-container" header="TamilNadu" class="p-col-12">
+  </p-card>
+  <p-card styleClass="card-container" header="Andhra Pradesh" class="p-col-12">
+  </p-card>
+  <p-card styleClass="card-container" header="Telangana" class="p-col-12">
+  </p-card>
+</div>
+
+<p-dialog header="Title" [(visible)]="display">
+  <img [src]="imageurl" />
+</p-dialog>
