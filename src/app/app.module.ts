@@ -21,6 +21,8 @@ import { ProjectsComponent } from './projects/projects.component';
 import { PersonalComponent } from './personal/personal.component';
 import { TravelLogComponent } from './travel-log/travel-log.component';
 import { IndustryProjectsComponent } from './industry-projects/industry-projects.component';
+import { FreelanceProjectsComponent } from './freelance-projects/freelance-projects.component';
+import { PocComponent } from './poc/poc.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +37,8 @@ import { IndustryProjectsComponent } from './industry-projects/industry-projects
     PersonalComponent,
     TravelLogComponent,
     IndustryProjectsComponent,
+    FreelanceProjectsComponent,
+    PocComponent,
   ],
   imports: [
     BrowserModule,

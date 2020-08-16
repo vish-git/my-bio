@@ -1,11 +1,31 @@
-<h3>Project Experience summary</h3>
-<p>
+<p-card styleClass="card-container" header="Project Experience summary ">
   I have 9+ years of experience working in industry projects.I have experience
   developing softwares for healthcare devices, networking devices using Java.I
   also have experience developing e-commerce website using Java and associated
   web technolofies. I have also worked in Telecommunication web App development
   projects using node.js ,microservice architecture and associated front end
   technologies such as Angular,react,etc
-</p>
-find below the details on projects <br />
-<app-industry-projects></app-industry-projects>
+</p-card>
+
+<h3></h3>
+<p></p>
+<!-- <app-industry-projects></app-industry-projects> -->
+<p-tabView>
+  <p-tabPanel
+    header="Industry Projects"
+    leftIcon="pi-bell-"
+    rightIcon="pi-bookmark"
+  >
+    <app-industry-projects></app-industry-projects>
+  </p-tabPanel>
+  <p-tabPanel header="POCs" leftIcon="pi-bell-" rightIcon="pi-bookmark">
+    <app-poc></app-poc>
+  </p-tabPanel>
+  <p-tabPanel
+    header="Non-Industry/Freelance/support Projects"
+    leftIcon="pi-bell-"
+    rightIcon="pi-bookmark"
+  >
+    <app-freelance-projects></app-freelance-projects>
+  </p-tabPanel>
+</p-tabView>
