@@ -2,65 +2,13 @@
 <div class="p-grid">
   <p-card styleClass="card-container" header="Karnataka" class="p-col-12">
     <div class="p-grid">
-      <div class="p-col-2">
+      <div class="p-col-2" *ngFor="let imageDetail of imageObject">
         <img
-          src="assets/page-under-construction.png"
-          (click)="showDialog('assets/page-under-construction.png')"
+          [src]="imageDetail.url"
+          (click)="showDialog(imageDetail)"
           width="100%"
         />
-        <span>page under construction</span>
-      </div>
-      <div class="p-col-2">
-        <img src="assets/page-under-construction.png" width="100%" />
-        <span>page under construction</span>
-      </div>
-      <div class="p-col-2">
-        <img
-          src="assets/page-under-construction.png"
-          (click)="showDialog('jbj')"
-          width="100%"
-        />
-        <span>page under construction</span>
-      </div>
-      <div class="p-col-2">
-        <img src="assets/page-under-construction.png" width="100%" />
-        <span>page under construction</span>
-      </div>
-      <div class="p-col-2">
-        <img src="assets/page-under-construction.png" width="100%" />
-        <span>page under construction</span>
-      </div>
-      <div class="p-col-2">
-        <img src="assets/page-under-construction.png" width="100%" />
-        <span>page under construction</span>
-      </div>
-      <div class="p-col-2">
-        <img src="assets/page-under-construction.png" width="100%" />
-        <span>page under construction</span>
-      </div>
-      <div class="p-col-2">
-        <img src="assets/page-under-construction.png" width="100%" />
-        <span>page under construction</span>
-      </div>
-      <div class="p-col-2">
-        <img src="assets/page-under-construction.png" width="100%" />
-        <span>page under construction</span>
-      </div>
-      <div class="p-col-2">
-        <img
-          src="assets/page-under-construction.png"
-          (click)="showDialog('faasa')"
-          width="100%"
-        />
-        <span>page under construction</span>
-      </div>
-      <div class="p-col-2">
-        <img src="assets/page-under-construction.png" width="100%" />
-        <span>page under construction</span>
-      </div>
-      <div class="p-col-2">
-        <img src="assets/page-under-construction.png" width="100%" />
-        <span>page under construction</span>
+        <span>{{ imageDetail.name }}</span>
       </div>
     </div>
   </p-card>
@@ -73,6 +21,14 @@
   </p-card>
 </div>
 
-<p-dialog header="Title" [(visible)]="display">
-  <img [src]="imageurl" />
+<p-dialog
+  [header]="imageName"
+  [(visible)]="display"
+  [style]="{ width: '50vw' }"
+  [maximizable]="true"
+>
+  <div class="p-grid">
+    <img [src]="imageUrl" width="100%" class="p-col-6" />
+    <div class="p-col-6">{{ imageDesc }}</div>
+  </div>
 </p-dialog>

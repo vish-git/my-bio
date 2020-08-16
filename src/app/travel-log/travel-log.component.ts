@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as dataLinks from '../links';
 
 @Component({
   selector: 'app-travel-log',
@@ -7,14 +8,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TravelLogComponent implements OnInit {
   display: boolean = false;
-  imageurl: any;
+  imageObject: any = {};
+  imageData: any;
+  imageUrl: any;
+  imageDesc: any;
+  imageName: any;
 
   constructor() {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.imageObject = dataLinks.karnatakaTravelImageLinks;
+  }
 
-  showDialog(image: any) {
+  showDialog(imageObject: any) {
     this.display = true;
-    this.imageurl = image;
+    this.imageUrl = imageObject.url || '';
+    this.imageDesc = imageObject.description || '';
+    this.imageName = imageObject.name || '';
   }
 }

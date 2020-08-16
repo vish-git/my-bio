@@ -624,3 +624,72 @@ export const unOrganizedLinks = [
     url: 'https://childdevelop.org/credit-cards-horitontal1/',
   },
 ];
+
+const imageDecriptionTemplate = {
+  image: '',
+  name: '',
+  description: '',
+};
+
+export const karnatakaTravelImageLinks = [
+  {
+    url: 'assets/my-travel/srigeri.jpg',
+    name: 'Sringeri',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non dictum leo. Aliquam ut lectus pretium, porttitor nibh nec, pulvinar lorem. Pellentesque semper facilisis magna, vel rutrum dolor iaculis sed. Curabitur et accumsan felis. Ut pellentesque felis ac enim finibus sollicitudin. Pellentesque gravida ultricies sagittis. Vestibulum porta urna vitae dui imperdiet lobortis.',
+  },
+  {
+    url: 'assets/my-travel/agumbe-sunset.jpg',
+    name: 'Agumbe',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non dictum leo. Aliquam ut lectus pretium, porttitor nibh nec, pulvinar lorem. Pellentesque semper facilisis magna, vel rutrum dolor iaculis sed. Curabitur et accumsan felis. Ut pellentesque felis ac enim finibus sollicitudin. Pellentesque gravida ultricies sagittis. Vestibulum porta urna vitae dui imperdiet lobortis.',
+  },
+  {
+    url: 'assets/my-travel/agumbe-sunset.jpg',
+    name: 'Agumbe',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non dictum leo. Aliquam ut lectus pretium, porttitor nibh nec, pulvinar lorem. Pellentesque semper facilisis magna, vel rutrum dolor iaculis sed. Curabitur et accumsan felis. Ut pellentesque felis ac enim finibus sollicitudin. Pellentesque gravida ultricies sagittis. Vestibulum porta urna vitae dui imperdiet lobortis.',
+  },
+  {
+    url: 'assets/my-travel/srigeri.jpg',
+    name: 'Sringeri',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non dictum leo. Aliquam ut lectus pretium, porttitor nibh nec, pulvinar lorem. Pellentesque semper facilisis magna, vel rutrum dolor iaculis sed. Curabitur et accumsan felis. Ut pellentesque felis ac enim finibus sollicitudin. Pellentesque gravida ultricies sagittis. Vestibulum porta urna vitae dui imperdiet lobortis.',
+  },
+  {
+    url: 'assets/my-travel/agumbe-sunset.jpg',
+    name: 'Agumbe',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non dictum leo. Aliquam ut lectus pretium, porttitor nibh nec, pulvinar lorem. Pellentesque semper facilisis magna, vel rutrum dolor iaculis sed. Curabitur et accumsan felis. Ut pellentesque felis ac enim finibus sollicitudin. Pellentesque gravida ultricies sagittis. Vestibulum porta urna vitae dui imperdiet lobortis.',
+  },
+  {
+    url: 'assets/my-travel/agumbe-sunset.jpg',
+    name: 'Agumbe',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non dictum leo. Aliquam ut lectus pretium, porttitor nibh nec, pulvinar lorem. Pellentesque semper facilisis magna, vel rutrum dolor iaculis sed. Curabitur et accumsan felis. Ut pellentesque felis ac enim finibus sollicitudin. Pellentesque gravida ultricies sagittis. Vestibulum porta urna vitae dui imperdiet lobortis.',
+  },
+  {
+    url: 'assets/my-travel/srigeri.jpg',
+    name: 'Sringeri',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non dictum leo. Aliquam ut lectus pretium, porttitor nibh nec, pulvinar lorem. Pellentesque semper facilisis magna, vel rutrum dolor iaculis sed. Curabitur et accumsan felis. Ut pellentesque felis ac enim finibus sollicitudin. Pellentesque gravida ultricies sagittis. Vestibulum porta urna vitae dui imperdiet lobortis.',
+  },
+  {
+    url: 'assets/my-travel/agumbe-sunset.jpg',
+    name: 'Agumbe',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non dictum leo. Aliquam ut lectus pretium, porttitor nibh nec, pulvinar lorem. Pellentesque semper facilisis magna, vel rutrum dolor iaculis sed. Curabitur et accumsan felis. Ut pellentesque felis ac enim finibus sollicitudin. Pellentesque gravida ultricies sagittis. Vestibulum porta urna vitae dui imperdiet lobortis.',
+  },
+  {
+    url: 'assets/my-travel/agumbe-sunset.jpg',
+    name: 'Agumbe',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non dictum leo. Aliquam ut lectus pretium, porttitor nibh nec, pulvinar lorem. Pellentesque semper facilisis magna, vel rutrum dolor iaculis sed. Curabitur et accumsan felis. Ut pellentesque felis ac enim finibus sollicitudin. Pellentesque gravida ultricies sagittis. Vestibulum porta urna vitae dui imperdiet lobortis.',
+  },
+];
+export const keralaTravelImageLinks = [];
+
+export const andhraTravelImageLinks = [];
+
+export const tamilnaduTravelImageLinks = [];
+export const telanganaTravelImageLinks = [];
