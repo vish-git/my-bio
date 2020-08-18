@@ -1,0 +1,197 @@
+<a (click)="showDialog()">My Technical references</a>
+
+<p-dialog
+  header="My Technical references"
+  [(visible)]="display"
+  [style]="{ width: '50vw' }"
+  [maximizable]="true"
+>
+  <div class="p-grid">
+    <p-card class="p-col-6" styleClass="card-container" header="HTML">
+      <ul>
+        <li *ngFor="let htmlReferenceLink of htmlReferenceLinks">
+          <a href="{{ htmlReferenceLink.url }}" target="_blank">{{
+            htmlReferenceLink.title
+          }}</a>
+        </li>
+      </ul>
+    </p-card>
+    <p-card class="p-col-6" styleClass="card-container" header="CSS">
+      <ul>
+        <li *ngFor="let cssReferenceLink of cssReferenceLinks">
+          <a href="{{ cssReferenceLink.url }}" target="_blank">{{
+            cssReferenceLink.title
+          }}</a>
+        </li>
+      </ul>
+    </p-card>
+    <p-card class="p-col-6" styleClass="card-container" header="Javascript">
+      <ul>
+        <li *ngFor="let javascriptReferenceLink of javascriptReferenceLinks">
+          <a href="{{ javascriptReferenceLink.url }}" target="_blank">{{
+            javascriptReferenceLink.title
+          }}</a>
+        </li>
+      </ul>
+    </p-card>
+    <p-card class="p-col-6" styleClass="card-container" header="Angular">
+    </p-card>
+    <p-card class="p-col-6" styleClass="card-container" header="React">
+      <ul>
+        <li *ngFor="let reactReferenceLink of reactReferenceLinks">
+          <a href="{{ reactReferenceLink.url }}" target="_blank">{{
+            reactReferenceLink.title
+          }}</a>
+        </li>
+      </ul> </p-card
+    ><p-card class="p-col-6" styleClass="card-container" header="GraphQL">
+      <ul>
+        <li *ngFor="let graphqlReferenceLink of graphqlReferenceLinks">
+          <a href="{{ graphqlReferenceLink.url }}" target="_blank">{{
+            graphqlReferenceLink.title
+          }}</a>
+        </li>
+      </ul> </p-card
+    ><p-card class="p-col-6" styleClass="card-container" header="Node.js">
+      <ul>
+        <li *ngFor="let nodejsReferenceLink of nodejsReferenceLinks">
+          <a href="{{ nodejsReferenceLink.url }}" target="_blank">{{
+            nodejsReferenceLink.title
+          }}</a>
+        </li>
+      </ul> </p-card
+    ><p-card class="p-col-6" styleClass="card-container" header="Nest.js">
+      <ul>
+        <li *ngFor="let nestjsReferenceLink of nestjsReferenceLinks">
+          <a href="{{ nestjsReferenceLink.url }}" target="_blank">{{
+            nestjsReferenceLink.title
+          }}</a>
+        </li>
+      </ul> </p-card
+    ><p-card class="p-col-6" styleClass="card-container" header="Typescript">
+      <ul>
+        <li *ngFor="let typescriptReferenceLink of typescriptReferenceLinks">
+          <a href="{{ typescriptReferenceLink.url }}" target="_blank">{{
+            typescriptReferenceLink.title
+          }}</a>
+        </li>
+      </ul> </p-card
+    ><p-card
+      class="p-col-6"
+      styleClass="card-container"
+      header="Webpage design related"
+    >
+      <ul>
+        <li
+          *ngFor="let webpagedesignReferenceLink of webpagedesignReferenceLinks"
+        >
+          <a href="{{ webpagedesignReferenceLink.url }}" target="_blank">{{
+            webpagedesignReferenceLink.title
+          }}</a>
+        </li>
+      </ul> </p-card
+    ><p-card
+      class="p-col-6"
+      styleClass="card-container"
+      header="Mobile Apps / Hybrid Apps related"
+    >
+      <ul>
+        <li *ngFor="let mobileAppsReferenceLink of mobileAppsReferenceLinks">
+          <a href="{{ mobileAppsReferenceLink.url }}" target="_blank">{{
+            mobileAppsReferenceLink.title
+          }}</a>
+        </li>
+      </ul> </p-card
+    ><p-card
+      class="p-col-6"
+      styleClass="card-container"
+      header="Amazon web services"
+    >
+      <ul>
+        <li *ngFor="let awsReferenceLink of awsReferenceLinks">
+          <a href="{{ awsReferenceLink.url }}" target="_blank">{{
+            awsReferenceLink.title
+          }}</a>
+        </li>
+      </ul> </p-card
+    ><p-card
+      class="p-col-6"
+      styleClass="card-container"
+      header="chat App related"
+    >
+      <ul>
+        <li *ngFor="let chatAppReferenceLink of chatAppReferenceLinks">
+          <a href="{{ chatAppReferenceLink.url }}" target="_blank">{{
+            chatAppReferenceLink.title
+          }}</a>
+        </li>
+      </ul> </p-card
+    ><p-card class="p-col-6" styleClass="card-container" header="DevOps">
+      <ul>
+        <li
+          *ngFor="let devopsandCICDReferenceLink of devopsandCICDReferenceLinks"
+        >
+          <a href="{{ devopsandCICDReferenceLink.url }}" target="_blank">{{
+            devopsandCICDReferenceLink.title
+          }}</a>
+        </li>
+      </ul> </p-card
+    ><p-card
+      class="p-col-6"
+      styleClass="card-container"
+      header="Web App Security"
+    >
+      <ul>
+        <li
+          *ngFor="
+            let webAppSecurityReferenceLink of webAppSecurityReferenceLinks
+          "
+        >
+          <a href="{{ webAppSecurityReferenceLink.url }}" target="_blank">{{
+            webAppSecurityReferenceLink.title
+          }}</a>
+        </li>
+      </ul> </p-card
+    ><p-card
+      class="p-col-6"
+      styleClass="card-container"
+      header="Interview Questions"
+    >
+      <ul>
+        <li
+          *ngFor="
+            let interviewQuestionReferenceLink of interviewQuestionReferenceLinks
+          "
+        >
+          <a href="{{ interviewQuestionReferenceLink.url }}" target="_blank">{{
+            interviewQuestionReferenceLink.title
+          }}</a>
+        </li>
+      </ul> </p-card
+    ><p-card
+      class="p-col-6"
+      styleClass="card-container"
+      header="Animation and video"
+    >
+      <ul>
+        <li *ngFor="let animationReferenceLink of animationReferenceLinks">
+          <a href="{{ animationReferenceLink.url }}" target="_blank">{{
+            animationReferenceLink.title
+          }}</a>
+        </li>
+      </ul> </p-card
+    ><p-card
+      class="p-col-6"
+      styleClass="card-container"
+      header="UnOrganized links"
+    >
+      <ul>
+        <li *ngFor="let unOrganizedLink of unOrganizedLinks">
+          <a href="{{ unOrganizedLink.url }}" target="_blank">{{
+            unOrganizedLink.title
+          }}</a>
+        </li>
+      </ul>
+    </p-card>
+  </div>
+</p-dialog>

@@ -24,6 +24,7 @@ import { IndustryProjectsComponent } from './industry-projects/industry-projects
 import { FreelanceProjectsComponent } from './freelance-projects/freelance-projects.component';
 import { PocComponent } from './poc/poc.component';
 import { DialogModule } from 'primeng/dialog';
+import { TechnicalReferencesComponent } from './technical-references/technical-references.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +41,7 @@ import { DialogModule } from 'primeng/dialog';
     IndustryProjectsComponent,
     FreelanceProjectsComponent,
     PocComponent,
+    TechnicalReferencesComponent,
   ],
   imports: [
     BrowserModule,
