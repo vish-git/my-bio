@@ -344,6 +344,51 @@ export const nodejsReferenceLinks = [
       'Hide API Keys with a Node.js API Proxy + Caching, Rate Limiting and Slow Downs    ',
     url: 'https://www.youtube.com/watch?v=nCWE6eonL7k',
   },
+  {
+    title: 'Build your own npm module',
+    url: 'https://dev.to/therealdanvega/creating-your-first-npm-package-2ehf',
+  },
+  {
+    title: 'Building Email Verification System Using Node and Redis',
+    url:
+      'https://codeforgeek.com/node-js-redis-tutorial-building-email-verification-system/',
+  },
+  {
+    title: 'send email using nodejs',
+    url: 'https://codeforgeek.com/send-e-mail-node-js/',
+  },
+  {
+    title: 'node-js-redis installation',
+    url:
+      'https://codeforgeek.com/node-js-redis-tutorial-installation-commands/',
+  },
+];
+export const redisLinks = [
+  {
+    title: 'redis',
+    url: 'https://try.redis.io/',
+  },
+  {
+    title: 'Redis in Action',
+    url:
+      'https://redislabs.com/ebook/appendix-a/a-3-installing-on-windows/a-3-2-installing-redis-on-window/',
+  },
+  {
+    title: 'node-js-redis installation',
+    url:
+      'https://codeforgeek.com/node-js-redis-tutorial-installation-commands/',
+  },
+  {
+    title: 'Redis for windows download',
+    url: 'https://github.com/dmajkic/redis/downloads',
+  },
+];
+export const booksLinks = [
+  {
+    title: 'Redis in Action',
+    url:
+      'https://redislabs.com/ebook/appendix-a/a-3-installing-on-windows/a-3-2-installing-redis-on-window/',
+  },
 ];
 export const webpagedesignReferenceLinks = [
   {
