@@ -85,13 +85,13 @@ export class SkillNodeService {
             {
               data: {
                 name: 'Angular',
-                experience: '4 yrs.',
+                experience: '2.5 yrs.',
               },
             },
             {
               data: {
                 name: 'Typescript',
-                experience: '4 yrs.',
+                experience: '2.5 yrs.',
               },
             },
             {
@@ -109,13 +109,13 @@ export class SkillNodeService {
             {
               data: {
                 name: 'Unit testing (Jasmine , Protractor)',
-                experience: '1+ yrs.',
+                experience: '2+ yrs.',
               },
             },
             {
               data: {
                 name: 'React.js',
-                experience: '0.2 yrs.',
+                experience: '1.5 yrs.',
               },
             },
           ],

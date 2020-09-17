@@ -16,8 +16,7 @@ export class SkillChartComponent implements OnInit {
         'Java',
         'Javascript',
         'Node.js',
-        'Angular',
-        'React.js',
+        'Angular/React',
         'Security/SSO',
         'Mongodb',
         'Redis',
@@ -27,7 +26,7 @@ export class SkillChartComponent implements OnInit {
           label: 'Experience level',
           backgroundColor: '#42A5F5',
           borderColor: '#1E88E5',
-          data: [5, 4, 4, 4, 0.2, 3, 2, 2],
+          data: [5, 4, 4, 4, 3, 2, 2, 0],
         },
       ],
     };
