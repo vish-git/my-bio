@@ -1,5 +1,10 @@
 <!-- <p-chart type="bar" [data]="data"></p-chart> -->
 <app-header></app-header>
 
-<p-tabMenu [model]="items" [activeItem]="activeItem"></p-tabMenu>
+<p-tabMenu
+  #tab
+  [model]="items"
+  [activeItem]="activeItem"
+  (click)="activateMenu(tab)"
+></p-tabMenu>
 <router-outlet></router-outlet>

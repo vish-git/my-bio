@@ -25,6 +25,7 @@ import { FreelanceProjectsComponent } from './freelance-projects/freelance-proje
 import { PocComponent } from './poc/poc.component';
 import { DialogModule } from 'primeng/dialog';
 import { TechnicalReferencesComponent } from './technical-references/technical-references.component';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 @NgModule({
   declarations: [
