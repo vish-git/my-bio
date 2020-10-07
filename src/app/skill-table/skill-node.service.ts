@@ -31,8 +31,8 @@ export class SkillNodeService {
             },
             {
               data: {
-                name: 'Angular',
-                experience: '3.5 yrs.',
+                name: 'FrontEnd',
+                experience: '4 yrs.',
                 type: 'Folder',
               },
             },
@@ -53,6 +53,12 @@ export class SkillNodeService {
             {
               data: {
                 name: 'Hapi.js',
+                experience: '2 yrs.',
+              },
+            },
+            {
+              data: {
+                name: 'express.js',
                 experience: '2 yrs.',
               },
             },
