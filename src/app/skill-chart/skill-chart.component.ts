@@ -13,20 +13,20 @@ export class SkillChartComponent implements OnInit {
   ngOnInit(): void {
     this.data = {
       labels: [
-        'Java',
         'Javascript',
+        'Java',
         'Node.js',
         'Angular/React',
         'Security/SSO',
         'Mongodb',
-        'Redis',
+        'Redis'
       ],
       datasets: [
         {
           label: 'Experience level',
           backgroundColor: '#42A5F5',
           borderColor: '#1E88E5',
-          data: [5, 4, 4, 4, 3, 2, 2, 0],
+          data: [7, 5.5, 7, 7, 3, 2, 2 ,0],
         },
       ],
     };

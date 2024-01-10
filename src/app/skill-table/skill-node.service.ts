@@ -20,19 +20,19 @@ export class SkillNodeService {
             {
               data: {
                 name: 'Java',
-                experience: '5yrs.',
+                experience: '5.5yrs.',
               },
             },
             {
               data: {
                 name: 'Node.js',
-                experience: '4 yrs.',
+                experience: '7 yrs.',
               },
             },
             {
               data: {
                 name: 'FrontEnd',
-                experience: '4 yrs.',
+                experience: '7 yrs.',
                 type: 'Folder',
               },
             },
@@ -47,7 +47,7 @@ export class SkillNodeService {
         {
           data: {
             name: 'Node.js',
-            experience: '4 yrs',
+            experience: '7 yrs',
           },
           children: [
             {
@@ -59,7 +59,7 @@ export class SkillNodeService {
             {
               data: {
                 name: 'express.js',
-                experience: '2 yrs.',
+                experience: '5 yrs.',
               },
             },
             {
@@ -71,7 +71,7 @@ export class SkillNodeService {
             {
               data: {
                 name: 'Unit Testing and coverage (Mocha , Chai , Istanbul )',
-                experience: '2+ yrs.',
+                experience: '5+ yrs.',
               },
             },
             {
@@ -85,7 +85,7 @@ export class SkillNodeService {
         {
           data: {
             name: 'FrontEnd',
-            experience: '4 yrs',
+            experience: '7 yrs',
           },
           children: [
             {
@@ -115,13 +115,13 @@ export class SkillNodeService {
             {
               data: {
                 name: 'Unit testing (Jasmine , Protractor)',
-                experience: '2+ yrs.',
+                experience: '5+ yrs.',
               },
             },
             {
               data: {
                 name: 'React.js',
-                experience: '1.5 yrs.',
+                experience: '4.5 yrs.',
               },
             },
           ],
@@ -147,7 +147,7 @@ export class SkillNodeService {
             {
               data: {
                 name: 'Postgresql',
-                experience: '1+ yrs',
+                experience: '2 yrs',
               },
             },
           ],
@@ -155,7 +155,7 @@ export class SkillNodeService {
         {
           data: {
             name: 'Security',
-            experience: '3 yrs.',
+            experience: '5 yrs.',
           },
           children: [
             {
@@ -193,13 +193,13 @@ export class SkillNodeService {
         {
           data: {
             name: 'Cloud',
-            experience: '1+ yrs.',
+            experience: '3+ yrs.',
           },
           children: [
             {
               data: {
                 name: 'Microsoft Azure ',
-                experience: '1+ yrs',
+                experience: '3+ yrs',
               },
             },
           ],
@@ -207,13 +207,13 @@ export class SkillNodeService {
         {
           data: {
             name: 'Devops and monitoring',
-            experience: '1+ yrs.',
+            experience: '3+ yrs.',
           },
           children: [
             {
               data: {
                 name: 'Docker',
-                experience: '3+ yrs',
+                experience: '4+ yrs',
               },
             },
             {
