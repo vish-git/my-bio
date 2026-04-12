@@ -26,13 +26,13 @@ export class SkillNodeService {
             {
               data: {
                 name: 'Node.js',
-                experience: '7 yrs.',
+                experience: '8 yrs.',
               },
             },
             {
               data: {
                 name: 'FrontEnd',
-                experience: '7 yrs.',
+                experience: '8 yrs.',
                 type: 'Folder',
               },
             },
@@ -47,7 +47,7 @@ export class SkillNodeService {
         {
           data: {
             name: 'Node.js',
-            experience: '7 yrs',
+            experience: '8 yrs',
           },
           children: [
             {
@@ -59,7 +59,13 @@ export class SkillNodeService {
             {
               data: {
                 name: 'express.js',
-                experience: '5 yrs.',
+                experience: '6 yrs.',
+              },
+            },
+            {
+              data: {
+                name: 'GraphQL',
+                experience: '1+ yrs.',
               },
             },
             {
@@ -71,7 +77,7 @@ export class SkillNodeService {
             {
               data: {
                 name: 'Unit Testing and coverage (Mocha , Chai , Istanbul )',
-                experience: '5+ yrs.',
+                experience: '6+ yrs.',
               },
             },
             {
@@ -85,7 +91,7 @@ export class SkillNodeService {
         {
           data: {
             name: 'FrontEnd',
-            experience: '7 yrs',
+            experience: '8 yrs',
           },
           children: [
             {
@@ -97,7 +103,7 @@ export class SkillNodeService {
             {
               data: {
                 name: 'Typescript',
-                experience: '2.5 yrs.',
+                experience: '3.5 yrs.',
               },
             },
             {
@@ -121,7 +127,7 @@ export class SkillNodeService {
             {
               data: {
                 name: 'React.js',
-                experience: '4.5 yrs.',
+                experience: '5.5 yrs.',
               },
             },
           ],
@@ -147,7 +153,7 @@ export class SkillNodeService {
             {
               data: {
                 name: 'Postgresql',
-                experience: '2 yrs',
+                experience: '3 yrs',
               },
             },
           ],
@@ -266,7 +272,7 @@ export class SkillNodeService {
             {
               data: {
                 name: 'Github , SVN ',
-                experience: '1+ yrs',
+                experience: '5+ yrs',
               },
             },
           ],
