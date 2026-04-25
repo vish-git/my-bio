@@ -14,6 +14,7 @@ import { CareerComponent } from './career/career.component';
 import { CardModule } from 'primeng/card';
 import { SkillChartComponent } from './skill-chart/skill-chart.component';
 import { SkillTableComponent } from './skill-table/skill-table.component';
+import { QuotationNoticeBoardComponent } from './quotation-notice-board/quotation-notice-board.component';
 import { TreeTableModule } from 'primeng/treetable';
 import { HttpClientModule } from '@angular/common/http';
 import { TechDairyComponent } from './tech-dairy/tech-dairy.component';
@@ -35,6 +36,7 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
     CareerComponent,
     SkillChartComponent,
     SkillTableComponent,
+    QuotationNoticeBoardComponent,
     TechDairyComponent,
     ProjectsComponent,
     PersonalComponent,

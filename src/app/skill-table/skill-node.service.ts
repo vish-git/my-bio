@@ -19,12 +19,6 @@ export class SkillNodeService {
           children: [
             {
               data: {
-                name: 'Java',
-                experience: '5.5yrs.',
-              },
-            },
-            {
-              data: {
                 name: 'Node.js',
                 experience: '8 yrs.',
               },
@@ -34,6 +28,12 @@ export class SkillNodeService {
                 name: 'FrontEnd',
                 experience: '8 yrs.',
                 type: 'Folder',
+              },
+            },
+            {
+              data: {
+                name: 'Java',
+                experience: '5.5yrs.',
               },
             },
             {
@@ -94,6 +94,12 @@ export class SkillNodeService {
             experience: '8 yrs',
           },
           children: [
+             {
+              data: {
+                name: 'React.js',
+                experience: '5.5 yrs.',
+              },
+            },
             {
               data: {
                 name: 'Angular',
@@ -103,7 +109,7 @@ export class SkillNodeService {
             {
               data: {
                 name: 'Typescript',
-                experience: '3.5 yrs.',
+                experience: '4.5 yrs.',
               },
             },
             {
@@ -124,12 +130,7 @@ export class SkillNodeService {
                 experience: '5+ yrs.',
               },
             },
-            {
-              data: {
-                name: 'React.js',
-                experience: '5.5 yrs.',
-              },
-            },
+           
           ],
         },
         {
